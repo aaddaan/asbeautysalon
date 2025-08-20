@@ -985,22 +985,26 @@
            focus:outline-none focus:ring-2 focus:ring-[#FFD97A] placeholder-gray-300"/>
 </div>
 
-    <!-- Service -->
-    <div class="relative">
-      <select id="service" required
-        class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 text-white 
-               focus:outline-none focus:ring-2 focus:ring-yellow-400">
-        <option value="" disabled selected class="text-gray-400">Choose a Service</option>
-        <option class="text-black">Skin Care</option>
-        <option class="text-black">Meni-Pedi</option>
-        <option class="text-black">Hair Care</option>
-        <option class="text-black">Facial</option>
-        <option class="text-black">Makeup</option>
-        <option class="text-black">Mehndi</option>
-        <option class="text-black">Nail Art</option>
-        <option class="text-black">DoorStep</option>
-      </select>
-    </div>
+<!-- Service -->
+<div class="relative">
+  <label for="service" class="block mb-2 text-sm font-medium text-white">
+    Choose a Service
+  </label>
+  <select id="service" required
+    class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 text-white 
+           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+    <option value="" disabled selected class="text-gray-400">-- Select a Service --</option>
+    <option value="skin" class="text-black">Skin Care</option>
+    <option value="meni-pedi" class="text-black">Meni-Pedi</option>
+    <option value="hair" class="text-black">Hair Care</option>
+    <option value="facial" class="text-black">Facial</option>
+    <option value="makeup" class="text-black">Makeup</option>
+    <option value="mehndi" class="text-black">Mehndi</option>
+    <option value="nail" class="text-black">Nail Art</option>
+    <option value="doorstep" class="text-black">DoorStep</option>
+  </select>
+</div>
+
 
     <!-- Button -->
     <button type="submit"
@@ -1171,6 +1175,7 @@
 </body>
 
 </html>
+
 
 
 
