@@ -83,6 +83,52 @@
     ]
   }
   </script>
+  
+<!-- ✅ Schema: Product with Reviews -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Bridal Makeup & Salon Services",
+  "image": "https://asbeautysalon.in/bridal.jpg",
+  "description": "AS Beauty Salon offers premium bridal makeup, facials, hair spa, and beauty treatments in Jhansi.",
+  "brand": {
+    "@type": "Brand",
+    "name": "AS Beauty Salon"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "25"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Priya Sharma"
+      },
+      "reviewBody": "The facial and hair spa service was absolutely amazing! Felt like a royal treatment 👑. Highly recommended!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Neha Verma"
+      },
+      "reviewBody": "The bridal makeup was flawless! Everyone loved it. Truly the best salon experience in town ✨",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    }
+  ]
+}
+</script>
 
   <style>
     body { background-color: #7b0f1b; color: #f6e8c9; font-family: 'Montserrat', sans-serif; }
@@ -950,5 +996,6 @@
 </body>
 
 </html>
+
 
 
