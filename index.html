@@ -1160,6 +1160,33 @@
     autoHeight: true, 
   });
 </script>
+<style>
+  /* Swiper bullets theme + accessibility fix */
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background: rgba(255, 217, 122, 0.6);
+    margin: 8px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  /* Bigger invisible area for touch */
+  .swiper-pagination-bullet::after {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #FFD97A; /* Active bullet highlight */
+  }
+</style>
+
 
 
 <a href="https://wa.me/919794108825?text=Hi%2C%20I%20need%20help%20with%20your%20services"
@@ -1175,6 +1202,7 @@
 </body>
 
 </html>
+
 
 
 
