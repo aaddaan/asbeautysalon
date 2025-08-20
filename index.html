@@ -727,29 +727,35 @@
     <div class="swiper mySwiper max-w-5xl mx-auto">
       <div class="swiper-wrapper">
 
-        <!-- ⭐ Review 1 -->
-        <div class="swiper-slide" itemprop="review" itemscope itemtype="https://schema.org/Review">
-          <div class="p-8 rounded-2xl"
-               style="background: rgba(255,255,255,0.06); 
-                      border:1px solid rgba(255,215,128,0.35); 
-                      box-shadow:0 0 30px rgba(255,217,122,0.15); 
-                      backdrop-filter: blur(16px);">
-            <p class="text-gray-200 italic mb-6 leading-relaxed" itemprop="reviewBody">
-              "The facial and hair spa service was absolutely amazing! 
-              Felt like a royal treatment 👑. Highly recommended!"
-            </p>
-            <div class="flex items-center justify-center gap-4" itemprop="author" itemscope itemtype="https://schema.org/Person">
-              <img src="https://i.pravatar.cc/60?img=32" 
-                   class="w-12 h-12 rounded-full border-2 border-[#FFD97A]" 
-                   alt="Client Priya Sharma photo" itemprop="image"/>
-              <div class="text-left">
-                <h4 class="text-[#FFD97A] font-semibold" itemprop="name">Priya Sharma</h4>
-                <p class="text-gray-400 text-sm">Regular Client</p>
-              </div>
-            </div>
-            <meta itemprop="reviewRating" content="5"/>
-          </div>
-        </div>
+       <!-- ⭐ Review 1 -->
+<div class="swiper-slide" itemprop="review" itemscope itemtype="https://schema.org/Review">
+  <div class="p-8 rounded-2xl"
+       style="background: rgba(255,255,255,0.06); 
+              border:1px solid rgba(255,215,128,0.35); 
+              box-shadow:0 0 30px rgba(255,217,122,0.15); 
+              backdrop-filter: blur(16px);">
+    
+    <!-- Review Text -->
+    <p class="text-gray-100 italic mb-6 leading-relaxed" itemprop="reviewBody">
+      "The facial and hair spa service was absolutely amazing! 
+      Felt like a royal treatment 👑. Highly recommended!"
+    </p>
+    
+    <!-- Reviewer Info -->
+    <div class="flex items-center justify-center gap-4" itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <img src="https://i.pravatar.cc/60?img=32" 
+           class="w-12 h-12 rounded-full border-2 border-[#FFD97A]" 
+           alt="Client Priya Sharma photo" itemprop="image"/>
+      <div class="text-left">
+        <h4 class="text-[#FFD97A] font-semibold" itemprop="name">Priya Sharma</h4>
+        <p class="text-gray-200 text-sm">Regular Client</p>
+      </div>
+    </div>
+    
+    <!-- Rating -->
+    <meta itemprop="reviewRating" content="5"/>
+  </div>
+</div>
 
         <!-- ⭐ Review 2 -->
         <div class="swiper-slide" itemprop="review" itemscope itemtype="https://schema.org/Review">
@@ -1154,6 +1160,7 @@
 </body>
 
 </html>
+
 
 
 
